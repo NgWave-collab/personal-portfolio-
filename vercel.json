@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm ci && npx ng build --configuration=production",
-  "outputDirectory": "dist/<portfolio>",
+  "outputDirectory": "dist/portfolio/browser",
   "framework": "angular",
   "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
 }
